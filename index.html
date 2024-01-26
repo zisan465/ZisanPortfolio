@@ -46,7 +46,7 @@
         <div class="container mx-auto">
             <img src="https://avatars.githubusercontent.com/u/64661123?s=400&u=8ad691608f014402bfde1323f693a8b7c1a57ca5&v=4" alt="Zisan Ahmed" class="rounded-full mx-auto mb-4" style="width: 150px; height: 150px;">
             <h2 class="text-4xl font-bold mb-2">Zisan Ahmed</h2>
-            <p class="text-lg">Web Developer</p>
+            <p class="text-lg" id="typing-container" ></p>
             <div class="flex justify-center mt-4 space-x-4">
                 <a href="https://www.facebook.com/zisan465" target="_blank" class="text-yellow-300 hover:underline">Facebook</a>
                 <a href="mailto:zisan465@gmail.com" class="text-yellow-300 hover:underline">Email</a>
@@ -99,6 +99,42 @@
         document.getElementById('mobile-menu-btn').addEventListener('click', function() {
             document.getElementById('mobile-menu').classList.toggle('hidden');
         });
+
+const sentences = [
+    "Web Developer",
+    "Web Desinger",
+    "MERN Developer",
+    "Video Editor",
+    "Self-Learner ",
+    "Dreamer"
+];
+
+        const typingContainer = document.getElementById('typing-container');
+
+function simulateTyping(index) {
+    if (index < sentences.length) {
+        const sentence = sentences[index];
+        let i = 0;
+
+        function typeCharacter() {
+            if (i < sentence.length) {
+                typingContainer.textContent += sentence.charAt(i);
+                i++;
+                setTimeout(typeCharacter, 100); // Adjust typing speed (100 milliseconds in this example)
+            } else {
+                setTimeout(() => {
+                    typingContainer.textContent = ''; // Clear the container for the next sentence
+                    simulateTyping(index + 1); // Move to the next sentence
+                }, 1000); // Pause for 1 second before typing the next sentence
+            }
+        }
+
+        typeCharacter();
+    }
+}
+
+// Start the typing simulation
+simulateTyping(0);
     </script>
 
 </body>
