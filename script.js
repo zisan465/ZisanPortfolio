@@ -1,6 +1,6 @@
   const videos = [
     {
-      title: "Documentory Video",
+      title: "Documentary Video",
       description: "In this video, I used GeoLayers 3 in After Effects along with Premiere Pro.",
       videoId: "5dhcqxO2tqE",
       type: "Widescreen - 16:9"
@@ -13,15 +13,15 @@
     },
     {
       title: "Motion Graphics",
-      description: "In this video, I used Photoshop & After Effect.",
+      description: "In this video, I used Photoshop & After effect.",
       videoId: "plVjHhmg-Dk",
       type: "Square - 1:1"
     },
     {
-      title: "Local Fruit Advertisement Video",
-      description: "In this video, I used Premier Pro & After Effect.",
-      videoId: "f4KK75Uhwi0",
-      type: "Reels - 9:16"
+      title: "Facebook Marketing Advertisement video.",
+      description: "In this video, I used Premier Pro & After Effect also AI voice.",
+      videoId: "T7xCWEf0yJw",
+      type: "Instagram Feed - 4:5"
     },
     {
       title: "E-book Advertisement Video",
