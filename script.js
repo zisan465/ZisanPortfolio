@@ -30,10 +30,16 @@
       type: "Instagram Feed - 4:5"
     },
     {
-      title: "Coaching Center Promotion Video",
-      description: "In this video, I used Premier Pro & After Effect.",
-      videoId: "K-jcnYkzVeI",
+      title: "Facebook Marketing Advertisement video.",
+      description: "In this video, I used Premier Pro & After Effect also AI voice.",
+      videoId: "foQB3TXVHmU",
       type: "Instagram Feed - 4:5"
+    },
+    {
+      title: "Documentary Video",
+      description: "In this video, I used Premier Pro & After Effect.",
+      videoId: "xY3ha1Z8alU",
+      type: "Widescreen - 16:9"
     },
      {
       title: "Product Promotion Video",
