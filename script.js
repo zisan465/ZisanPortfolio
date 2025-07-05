@@ -49,9 +49,15 @@
     },
      {
       title: "Product Promotion Video",
-      description: "In this video, I used Premier Pro & After Effect.",
-      videoId: "ky2sU_CWPRw",
+      description: "In this video, I used Premiere Pro &  After Effects.",
+      videoId: "HWJS9WyDMfE",
       type: "Reels - 9:16"
+    },
+      {
+      title: "Map Animation",
+      description: "In this video, I used Premiere Pro &  After Effects.",
+      videoId: "KDueNzwV7v8",
+      type: "Instagram Feed - 4:5"
     },
   ];
 
